@@ -1,8 +1,7 @@
 package commonprefix;
-
 import java.util.Scanner;
-
 public class Commonprefix {
+	
     public static void main(String[] args) {
         
         Scanner input = new Scanner(System.in);
@@ -25,7 +24,5 @@ public class Commonprefix {
 		else
 			System.out.println(one + " and " + two +
 				" have no commmon prefix");
-
-    }
-    
+    }    
 }
