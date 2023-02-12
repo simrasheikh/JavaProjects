@@ -1,21 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package fighting.game;
 
 import java.util.Random;
 import java.util.Scanner;
-
-/**
- *
- * @author HP
- */
 public class FightingGame {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Attack points of the monster:");
@@ -67,7 +56,6 @@ public class FightingGame {
                 System.out.println("Monsters attack was unsuccessful yayyyyyy");
                 
         }
-    }
-    
+    }   
 }
 }
