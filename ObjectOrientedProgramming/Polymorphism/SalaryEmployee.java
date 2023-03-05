@@ -1,11 +1,9 @@
-public class SalaryEmployee extends Employee{
-    
+public class SalaryEmployee extends Employee{    
     private double weeklySalary;
     
     SalaryEmployee(String fname, String lname, double weeklySalary) {
         super(fname,lname);
         this.weeklySalary = weeklySalary;       
-        
     }
     public double getWeeklySalary(double weeklySalary) {
         return weeklySalary;
