@@ -1,4 +1,3 @@
-package lab6task1;
 public class HourlyEmployee extends Employee{
     
     private double hourly_wage;
