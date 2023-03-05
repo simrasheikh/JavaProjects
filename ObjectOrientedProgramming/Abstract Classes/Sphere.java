@@ -1,4 +1,3 @@
-package lab6task2;
 public class Sphere extends Shape {
     private double radius;
     
